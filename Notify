@@ -1,0 +1,6 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script Library";
+    Text = "library works";
+    Duration = "10";
+    Callback = NotificationBindable;
+})
